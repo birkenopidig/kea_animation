@@ -1,0 +1,231 @@
+body{
+    margin: 0;
+}
+#screen{
+    position: relative;
+    width: 100vw;
+    height: 56.25vw;
+
+}
+#game_background{
+    background-image: url(svg/SVG/spilbaggrund.svg);
+    background-size: cover;
+    width: 100vw;
+    height: 56.25vw;
+    position: absolute;
+    z-index: -2
+}
+
+/**UI**/
+#toolbox{
+    background-image: url(svg/SVG/toolbox.svg);
+    width: 100vw;
+    height: 56.25vw;
+    position: absolute;
+    z-index: 1;
+    background-size: 100%;
+
+}
+
+#settings_knap{
+    background-image: url(svg/SVG/settings.svg);
+    width: 100vw;
+    height: 56.25vw;
+    position: absolute;
+    z-index: 2;
+    background-size: 100%;
+    top: 21vw;
+    left: -53vw;
+}
+
+#game_ui #hjerte_helt{
+    background-image: url(svg/SVG/hjerte_helt.svg);
+    width: 100vw;
+    height: 56.25vw;
+    position: absolute;
+    z-index: 2;
+    background-size: 100%;
+    top: 21vw;
+    left: -31vw;
+}
+
+#tid{
+    background-image: url(svg/SVG/ur.svg);
+    width: 100vw;
+    height: 56.25vw;
+    position: absolute;
+    z-index: 2;
+    background-size: 100%;
+    top: 19vw;
+    right: -35vw;
+}
+
+/**PENGE*/
+#penge1{
+    background-image: url(svg/SVG/pengeseddel.svg);
+    width: 100vw;
+    height: 56.25vw;
+    position: absolute;
+    top: 28vw;
+    right: 19.9vw;
+    z-index: 2;
+    background-size: 100%;
+}
+
+#penge2{
+    background-image: url(svg/SVG/pengeseddel.svg);
+    width: 100vw;
+    height: 56.25vw;
+    position: absolute;
+    top: 28vw;
+    right: 16.1vw;
+    z-index: 2;
+    background-size: 100%;
+}
+
+#penge3{
+    background-image: url(svg/SVG/pengeseddel.svg);
+    width: 100vw;
+    height: 56.25vw;
+    position: absolute;
+    top: 28vw;
+    right: 12.2vw;
+    z-index: 2;
+    background-size: 100%;
+}
+
+#penge4{
+    background-image: url(svg/SVG/pengeseddel.svg);
+    width: 100vw;
+    height: 56.25vw;
+    position: absolute;
+    top: 28vw;
+    right: 8.5vw;
+    z-index: 2;
+    background-size: 100%;
+}
+
+#penge5{
+    background-image: url(svg/SVG/pengeseddel.svg);
+    width: 100vw;
+    height: 56.25vw;
+    position: absolute;
+    top: 28vw;
+    right: 4.6vw;
+    z-index: 2;
+    background-size: 100%;
+}
+
+#penge6{
+    background-image: url(svg/SVG/pengeseddel.svg);
+    width: 100vw;
+    height: 56.25vw;
+    position: absolute;
+    top: 28vw;
+    right: 0.6vw;
+    z-index: 2;
+    background-size: 100%;
+}
+
+#penge7{
+    background-image: url(svg/SVG/pengeseddel.svg);
+    width: 100vw;
+    height: 56.25vw;
+    position: absolute;
+    top: 28vw;
+    right: -3.3vw;
+    z-index: 2;
+    background-size: 100%;
+}
+
+#penge8{
+    background-image: url(svg/SVG/pengeseddel.svg);
+    width: 100vw;
+    height: 56.25vw;
+    position: absolute;
+    top: 28vw;
+    right: -7.3vw;
+    z-index: 2;
+    background-size: 100%;
+}
+
+#penge9{
+    background-image: url(svg/SVG/pengeseddel.svg);
+    width: 100vw;
+    height: 56.25vw;
+    position: absolute;
+    top: 28vw;
+    right: -11.2vw;
+    z-index: 2;
+    background-size: 100%;
+}
+
+#penge10{
+    background-image: url(svg/SVG/pengeseddel.svg);
+    width: 100vw;
+    height: 56.25vw;
+    position: absolute;
+    top: 28vw;
+    right: -15.3vw;
+    z-index: 2;
+    background-size: 100%;
+}
+
+/**BANKER**/
+#moensbank{
+    background-image: url(svg/SVG/m%C3%B8nskbank_lille.svg);
+    width: 100vw;
+    height: 56.25vw;
+    position: absolute;
+    z-index: 1;
+    background-size: 100%;
+    top: -40vw;
+    left: -36vw;
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear
+}
+
+@keyframes example {
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(70.25vw);
+    }
+
+#danskebank{
+    background-image: url(svg/SVG/danskebank_lille.svg);
+    width: 100vw;
+    height: 56.25vw;
+    position: absolute;
+    z-index: 1;
+    background-size: 100%;
+    top: -10vw;
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+    @keyframes example {
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(70.25vw);
+    }
+
+#sparnord{
+    background-image: url(svg/SVG/sparnord_lille.svg);
+    width: 100vw;
+    height: 56.25vw;
+    position: absolute;
+    z-index: 1;
+    background-size: 100%;
+    top: -12vw;
+    left: 29vw;
+
+}
+
